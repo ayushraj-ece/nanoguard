@@ -1,0 +1,11 @@
+[project]
+name = "nanoguard"
+version = "1.0.0"
+description = "Smart local file security scanner."
+authors = [{ name="Ayush" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+nanoguard = "nanoguard.cli:main"

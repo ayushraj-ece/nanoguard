@@ -1,0 +1,28 @@
+name: nanoguard
+base: core22
+version: '1.0.0'
+summary: Smart local file security scanner
+description: |
+  NanoGuard scans your local files for secrets, tokens, API keys, passwords,
+  and sensitive data.
+
+grade: stable
+confinement: strict
+
+apps:
+  nanoguard:
+    command: bin/nanoguard
+    plugs:
+      - home
+
+parts:
+  nanoguard:
+    plugin: python
+    source: .
+    build-packages:
+      - python3
+      - python3-distutils
+      - python3-dev
+      - python3-venv
+    stage-packages:
+      - python3
