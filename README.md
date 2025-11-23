@@ -25,6 +25,3 @@ Example:
 nanoguard ~/Documents
 ```
 
-## License
-
-MIT
