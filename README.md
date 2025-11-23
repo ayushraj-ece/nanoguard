@@ -1,11 +1,11 @@
-```md
-# NanoGuard
 
-NanoGuard is a lightweight file security scanner that identifies sensitive data such as API keys, tokens, passwords, and other secrets inside your local files. It operates entirely inside the user's home directory and uses strict confinement for safe and sandboxed execution.
+NanoGuard
+
+NanoGuard is a lightweight file security scanner that detects sensitive information such as API keys, tokens, passwords, and other secret patterns within user files. It operates entirely inside the user's home directory and runs under strict confinement for safe and isolated execution.
 
 ## Installation
 
-Install from the Snap Store:
+Install NanoGuard from the Snap Store:
 
 ```
 sudo snap install nanoguard
@@ -13,7 +13,7 @@ sudo snap install nanoguard
 
 ## Usage
 
-Scan any directory:
+Run a scan on any directory:
 
 ```
 nanoguard <path>
@@ -28,4 +28,3 @@ nanoguard ~/Documents
 ## License
 
 MIT
-```
